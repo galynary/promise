@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Page pokemon</title>
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -16,8 +16,17 @@
     />
   </head>
   <body>
-    <a href="partials/task_02.html">api-pixbay page</a>
-    <a href="partials/fetch-api.html">fetch-api page</a>
-   <script type="module" src="./index.js"></script>
-  </body>
-</html>
+    <a href= "../index.html">На головну</a>
+    <form class="search-form" id="js-search-form">
+      <input
+        class="form-control"
+        name="query"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="btn-primary" type="submit">Search</button>
+    </form>
+    <div class="card-container"></div>
+    <script src="../js/fetch-api.js" type="module"></script>
+    </body>
+    </html>
